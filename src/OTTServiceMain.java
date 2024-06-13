@@ -10,14 +10,14 @@ public class OTTServiceMain {
     // OTT 종류 추가
     public void addOTT(String ottName, double basicPrice, double standardPrice, double premiumPrice) {
         OTTPrices prices = new OTTPrices(basicPrice, standardPrice, premiumPrice);
-        ottMap.put(ottName, prices);
+        ottMap.put(ottName.toLowerCase(), prices);
     }
 
     // 특정 OTT 서비스의 가격 업데이트
     public void updatePrice(String ottName, String type, double price) {
-        OTTPrices prices = ottMap.get(ottName);
+        OTTPrices prices = ottMap.get(ottName.toLowerCase());
         if (prices != null) {
-            prices.setPrice(type, price);
+            prices.setPrice(type.toLowerCase(), price);
         }
     }
 
@@ -34,7 +34,7 @@ public class OTTServiceMain {
     }
 
     public boolean printOTTDetailsOttName(String ottName) {
-            OTTPrices prices = ottMap.get(ottName);
+            OTTPrices prices = ottMap.get(ottName.toLowerCase());
             if(prices != null) {
                 System.out.println("OTT: " + ottName);
                 System.out.println("Basic Price: " + prices.getBasicPrice());
@@ -106,6 +106,7 @@ public class OTTServiceMain {
     //OTT 최신 컨텐츠 목록 관리하는 정보
 
 
+
     // 예시 사용
     public static void main(String[] args) {
         OTTServiceMain service = new OTTServiceMain();
@@ -125,9 +126,9 @@ public class OTTServiceMain {
 
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("원하는 OTT를 고르세요(Netflix,Disney,CoupangPlay,Tving,Wave):");
+        System.out.println("원하는 OTT를 고르세요(Netflix,Disney+,CoupangPlay,Tving,Wave):");
         String ottName = scanner.next();
-        if(service.ottMap.get(ottName) == null) {
+        if(service.ottMap.get(ottName.toLowerCase()) == null) {
             System.out.println("정보가 없습니다");
             scanner.close();
         } else {
