@@ -18,6 +18,7 @@ _OTT 스트리밍 정보 제공해 구매자가 구매를 결정하는데 도움
 <h3>다양한 OTT 스트리밍 종류들</h3>
 <img src="https://github.com/Boyeon-Shin/ott-streaming-service/assets/141127815/42b0a714-af38-497d-bd0e-b8abc5aa24d6"  width="600" height="400"/>
 
+
 <구성요소> <br/> </div>
 <div align=left>
 TreeMap: <br/>
