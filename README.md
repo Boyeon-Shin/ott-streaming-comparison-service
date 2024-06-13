@@ -6,10 +6,10 @@
   <br/>
 
   <strong>프로젝트 구성원:</strong><br/>
-  20221023 신보연<br/>
-  20221042 허소영<br/>
-  20222637 조수빈<br/>
-  20221018 박소영
+  20221023 신보연 (코딩 작성 및 완성)<br/> 
+  20221042 허소영 (코딩 작성 및 완성)<br/>
+  20222637 조수빈 (read me 작성)<br/>
+  20221018 박소영 (read me 작성)
 
   <br/>
   <h3>다양한 OTT 스트리밍 종류들</h3>
@@ -21,12 +21,19 @@
 ## 개요<br/>
 이 프로젝트는 여러 OTT스트리밍 서비스의 ${\textsf{\color{red}가격}}$을 관리하고, </br>
 사용자에게 각 서비스의 가격 정보를 제공하여 ${\textsf{\color{red}구매결정}}$을 돕는 서비스입니다. </br>
-각 OTT 서비스의 인원수별 가격, 최신 컨텐츠 업데이트, 이용자 수 등을 관리하고, </br> 경쟁사와의 가격 비교를 통해 최적의 선택을 할 수 있도록 지원합니다.
+각 OTT 서비스의 유형별 가격, 최신 컨텐츠 업데이트, 이용자 수 등을 관리하고, </br> 경쟁사와의 가격 비교를 통해 최적의 선택을 할 수 있도록 지원합니다.
 </div>
 
 <div align=center>
 
 <br/> 
+<br/>
+
+**<활용한 OTT 종류>**
+<br/>
+
+NETFLEX &ensp;/&ensp; TVING &ensp;/&ensp; COUPANG PLAY &ensp;/&ensp; WAVVE &ensp; /&ensp; DISNEY+
+
 <br/>
 
 **<구성요소>** <br/>
@@ -39,10 +46,22 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;값: OTT 서비스 상세 정보 (OTTService 객체)<br/>
 <br/>
 
-&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  • **HashMap**:  각 OTT 서비스의 상세 정보를 관리합니다.<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;인원수별 가격 (Key: 인원수, Value: 가격)<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;최신 컨텐츠 업데이트 (String)<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;이용자 수 (int)
+
+<div align=center>
+  
+<br/>
+<br/>
+
+<각 OTT의 한달 및 할인 구독료>
+<br/>
+
+ * NETFLEX
+ * TVING 
+ * COUPANG PLAY
+ * WAVVE
+ * DISNEY
+
+
 
   
 
