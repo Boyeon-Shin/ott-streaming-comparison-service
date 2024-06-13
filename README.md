@@ -57,8 +57,14 @@ NETFLEX &ensp;/&ensp; TVING &ensp;/&ensp; COUPANG PLAY &ensp;/&ensp; WAVVE &ensp
 &emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; •<strong> NETFLEX &ensp;/&ensp; TVING &ensp;/&ensp; COUPANG PLAY &ensp;/&ensp; WAVVE &ensp; /&ensp; DISNEY+</strong> 5개의 OTT중 하나를 선택 <br/>
 &emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;• 옳지 않은 OTT 선택 시 자동 종료 <br/>
 &emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;• 요금제 타입 선택 <br/>
-&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;• 결과 도출
+&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;• 결과 도출<br/>
+</br>
+    
+  <div align=center>
+    <strong><결과></strong></br></br>
+<img width="403" alt="OTT" src="https://github.com/Boyeon-Shin/ott-streaming-comparison-service/assets/131340991/83346f5f-80a0-4e87-b32f-b2c14df1d927">
 
+</div>
 
   
 
