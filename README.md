@@ -34,15 +34,15 @@
 
 <div align=left>
 
-* **TreeMap**:   OTT 서비스 종류를 키로 사용하여 각 서비스의 상세 정보를 저장합니다.<br/>
- &emsp;키: OTT 서비스 이름 (String)<br/>
- &emsp;값: OTT 서비스 상세 정보 (OTTService 객체)<br/>
+&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  * **TreeMap**:   OTT 서비스 종류를 키로 사용하여 각 서비스의 상세 정보를 저장합니다.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;키: OTT 서비스 이름 (String)<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;값: OTT 서비스 상세 정보 (OTTService 객체)<br/>
 <br/>
 
-* **HashMap**:  각 OTT 서비스의 상세 정보를 관리합니다.<br/>
-  &emsp;인원수별 가격 (Key: 인원수, Value: 가격)<br/>
-  &emsp;최신 컨텐츠 업데이트 (String)<br/>
-  &emsp;이용자 수 (int)
+&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* **HashMap**:  각 OTT 서비스의 상세 정보를 관리합니다.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;인원수별 가격 (Key: 인원수, Value: 가격)<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;최신 컨텐츠 업데이트 (String)<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;이용자 수 (int)
 
   
 
