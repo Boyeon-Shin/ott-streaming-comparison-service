@@ -10,7 +10,8 @@ _OTT 스트리밍 정보 제공해 구매자가 구매를 결정하는데 도움
 <프로젝트 구성원> <br/>
 20221023 신보연  
 20221042 허소영   
-20222637 조수빈 
+20222637 조수빈 <br/>
+20221018 박소영
   
 <br/>
 
@@ -18,3 +19,6 @@ _OTT 스트리밍 정보 제공해 구매자가 구매를 결정하는데 도움
 <img src="https://github.com/Boyeon-Shin/ott-streaming-service/assets/141127815/42b0a714-af38-497d-bd0e-b8abc5aa24d6"  width="600" height="400"/>
 
 </div>
+
+<구성요소> <br/>
+
