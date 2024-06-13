@@ -20,5 +20,11 @@ _OTT 스트리밍 정보 제공해 구매자가 구매를 결정하는데 도움
 
 </div>
 
+<div align=center>
 <구성요소> <br/>
+ treemap -> ott종류 = key
 
+<리스트 관리 요소> <br/>
+hashmap
+-ott종류
+-
