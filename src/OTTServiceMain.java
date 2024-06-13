@@ -22,7 +22,7 @@ public class OTTServiceMain {
     }
 
     // OTT 종류별 정보 출력
-    public void printOTTDetails() {
+    public boolean printOTTDetails() {
         for (Map.Entry<String, OTTPrices> entry : ottMap.entrySet()) {
             System.out.println("OTT: " + entry.getKey());
             System.out.println("Basic Price: " + entry.getValue().getBasicPrice());
@@ -30,7 +30,24 @@ public class OTTServiceMain {
             System.out.println("Premium Price: " + entry.getValue().getPremiumPrice());
             System.out.println();
         }
+        return false;
     }
+
+    public boolean printOTTDetailsOttName(String ottName) {
+            OTTPrices prices = ottMap.get(ottName);
+            if(prices != null) {
+                System.out.println("OTT: " + ottName);
+                System.out.println("Basic Price: " + prices.getBasicPrice());
+                System.out.println("Standard Price: " + prices.getStandardPrice());
+                System.out.println("Premium Price: " + prices.getPremiumPrice());
+                System.out.println();
+            }else {
+                System.out.println("정보가 없습니다");
+            }
+
+        return false;
+    }
+
 
     // OTT 가격 정보를 관리하는 내부 클래스
     private class OTTPrices {
@@ -56,6 +73,20 @@ public class OTTServiceMain {
             return premiumPrice;
         }
 
+        public double getTypePrice(String type) {
+            switch (type) {
+                case "basic":
+                    return basicPrice;
+                case "standard":
+                    return standardPrice;
+                case "premium":
+                    return premiumPrice;
+                default:
+                    return 0;
+            }
+        }
+
+
         public void setPrice(String type, double price) {
             switch (type.toLowerCase()) {
                 case "basic":
@@ -76,17 +107,31 @@ public class OTTServiceMain {
     // 예시 사용
     public static void main(String[] args) {
         OTTServiceMain service = new OTTServiceMain();
-        service.addOTT("Netflix", 0, 13.99, 17.99);
-        service.addOTT("Amazon Prime Video", 5.99, 10.99, 14.99);
-        service.addOTT("Disney+", 6.99, 11.99, 15.99);
+        service.addOTT("Netflix", 9500, 13500, 17000);
+        service.addOTT("Disney+", 9900, 0, 13900);
+        service.addOTT("Coupang Play", 4900, 4900, 4900);
+        service.addOTT("Tving", 7900, 10900, 13900);
+        service.addOTT("Wave", 7900, 10900, 13900);
 
-        service.printOTTDetails();
+//        service.printOTTDetails();
 
-        service.updatePrice("Netflix", "standard", 15.99);
-        service.updatePrice("Disney+", "basic", 7.99);
+//        service.updatePrice("Netflix", "standard", 15.99);
+//        service.updatePrice("Disney+", "basic", 7.99);
 
-        System.out.println("Updated Prices:");
-        service.printOTTDetails();
+//        System.out.println("Updated Prices:");
+//        service.printOTTDetails();
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("원하는 OTT를 고르세요(Netflix,Disney,Coupang Play,Tving,Wave):");
+        String ottName = scanner.next();
+        System.out.println("type을 고르세요 basic,standard,premium 전체보기를 원하면 all");
+        String type = scanner.next();
+        if(type.equals("all")){
+            System.out.println(service.printOTTDetailsOttName(ottName));
+        }else {
+            System.out.println(type+ ": " + service.ottMap.get(ottName).getTypePrice(type));
+        }
     }
+
+
 }
