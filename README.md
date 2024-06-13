@@ -8,8 +8,8 @@
   <strong>프로젝트 구성원:</strong><br/>
   20221023 신보연 (코딩 작성 및 완성)<br/> 
   20221042 허소영 (코딩 작성 및 완성)<br/>
-  20222637 조수빈 (read me 작성)<br/>
-  20221018 박소영 (read me 작성)
+  20222637 조수빈 (read me 작성 완성)<br/>
+  20221018 박소영 (read me 작성 및 코딩)
 
   <br/>
   <h3>다양한 OTT 스트리밍 종류들</h3>
@@ -46,10 +46,22 @@ NETFLEX &ensp;/&ensp; TVING &ensp;/&ensp; COUPANG PLAY &ensp;/&ensp; WAVVE &ensp
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;값: OTT 서비스 상세 정보 (OTTService 객체)<br/>
 <br/>
 
+  <div align=center>
 
-<div align=center>
-  
+  **<사용법>** 
 
+
+ (대/소문자 구분 X) <br/>
+ 
+<div align=left>
+
+<br/>
+ 
+
+&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; •NETFLEX &ensp;/&ensp; TVING &ensp;/&ensp; COUPANG PLAY &ensp;/&ensp; WAVVE &ensp; /&ensp; DISNEY+ 5개의 OTT중 하나를 선택 <br/>
+&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;•옳지 않은 OTT 선택 시 자동 종료 <br/>
+&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;• 요금제 타입 선택 <br/>
+&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; •  결과 도출
 
 
   
