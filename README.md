@@ -2,7 +2,7 @@
 <h1>OTT-streaming-comparison-service </h1>
 
 
-_OTT 스트리밍 정보 제공해서 구매자가 구매를 결정하는데 도움을 주는 서비스_
+_OTT 스트리밍 정보 제공해 구매자가 구매를 결정하는데 도움을 주는 서비스_
 <br/>
 <br/>
 
