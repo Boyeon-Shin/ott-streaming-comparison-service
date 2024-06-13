@@ -49,17 +49,6 @@ NETFLEX &ensp;/&ensp; TVING &ensp;/&ensp; COUPANG PLAY &ensp;/&ensp; WAVVE &ensp
 
 <div align=center>
   
-<br/>
-<br/>
-
-<각 OTT의 한달 및 할인 구독료>
-<br/>
-
- * NETFLEX
- * TVING 
- * COUPANG PLAY
- * WAVVE
- * DISNEY
 
 
 
