@@ -17,7 +17,7 @@
 
   <br/>
   <br/>
-  <div align="left">
+  <div text-align: "left;">
     <strong>구성요소:</strong> <br/> 
     <strong>TreeMap:</strong><br/>
     OTT 서비스 종류를 키로 사용하여 각 서비스의 상세 정보를 저장합니다.<br/>
