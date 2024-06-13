@@ -54,10 +54,10 @@ NETFLEX &ensp;/&ensp; TVING &ensp;/&ensp; COUPANG PLAY &ensp;/&ensp; WAVVE &ensp
  (대/소문자 구분 X) <br/>
  
 <div align=left>
-&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;•<strong> NETFLEX &ensp;/&ensp; TVING &ensp;/&ensp; COUPANG PLAY &ensp;/&ensp; WAVVE &ensp; /&ensp; DISNEY+</strong> 5개의 OTT중 하나를 선택 또는 exit<br/>
-&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;• 옳지 않은 OTT 선택 시 오류 메세지 후 다시 요청 <br/>
-&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;• 요금제 타입 선택 <br/>
-&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;• 결과 도출<br/>
+&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;•<strong> NETFLEX &ensp;/&ensp; TVING &ensp;/&ensp; COUPANG PLAY &ensp;/&ensp; WAVVE &ensp; /&ensp; DISNEY+</strong> 5개의 OTT중 하나를 선택 또는 exit<br/>
+&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;• 옳지 않은 OTT 선택 시 오류 메세지 후 다시 요청 <br/>
+&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;• 요금제 타입 선택 <br/>
+&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; &emsp;• 결과 도출<br/>
 </br>
     
   <div align=center>
