@@ -63,8 +63,10 @@ NETFLEX &ensp;/&ensp; TVING &ensp;/&ensp; COUPANG PLAY &ensp;/&ensp; WAVVE &ensp
   <div align=center>
     <strong><결과></strong></br></br>
 <img width="403" alt="OTT" src="https://github.com/Boyeon-Shin/ott-streaming-comparison-service/assets/141127815/df31519d-c78b-4c2f-acfe-81e06ab0a2bc"> <br/><br/>
+<img width="403" alt="image" src="https://github.com/Boyeon-Shin/ott-streaming-comparison-service/assets/141127815/6e9e64c2-c25e-4a2c-8f90-dccdee370e86"> <br/><br/>
 <img width="403" alt="KakaoTalk_Photo_2024-06-13-16-23-18" src="https://github.com/Boyeon-Shin/ott-streaming-comparison-service/assets/141127815/e939270c-b14d-4b36-8e7d-b661836507cd"> <br/><br/>
-<img width="403" alt="KakaoTalk_Photo_2024-06-13-16-23-23" src="https://github.com/Boyeon-Shin/ott-streaming-comparison-service/assets/141127815/9ac75068-f29e-4918-8d8d-a7d44337ac86"> <br/>
+<img width="403" alt="KakaoTalk_Photo_2024-06-13-16-23-23" src="https://github.com/Boyeon-Shin/ott-streaming-comparison-service/assets/141127815/9ac75068-f29e-4918-8d8d-a7d44337ac86"> 
+
 
 </div>
 
