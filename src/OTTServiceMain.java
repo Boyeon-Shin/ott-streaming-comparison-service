@@ -44,8 +44,7 @@ public class OTTServiceMain {
             }else {
                 System.out.println("정보가 없습니다");
             }
-
-        return false;
+            return false;
     }
 
 
@@ -104,12 +103,15 @@ public class OTTServiceMain {
         }
     }
 
+    //OTT 최신 컨텐츠 목록 관리하는 정보
+
+
     // 예시 사용
     public static void main(String[] args) {
         OTTServiceMain service = new OTTServiceMain();
         service.addOTT("Netflix", 9500, 13500, 17000);
         service.addOTT("Disney+", 9900, 0, 13900);
-        service.addOTT("Coupang Play", 4900, 4900, 4900);
+        service.addOTT("CoupangPlay", 4900, 4900, 4900);
         service.addOTT("Tving", 7900, 10900, 13900);
         service.addOTT("Wave", 7900, 10900, 13900);
 
@@ -121,15 +123,22 @@ public class OTTServiceMain {
 //        System.out.println("Updated Prices:");
 //        service.printOTTDetails();
 
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("원하는 OTT를 고르세요(Netflix,Disney,Coupang Play,Tving,Wave):");
+        System.out.println("원하는 OTT를 고르세요(Netflix,Disney,CoupangPlay,Tving,Wave):");
         String ottName = scanner.next();
-        System.out.println("type을 고르세요 basic,standard,premium 전체보기를 원하면 all");
-        String type = scanner.next();
-        if(type.equals("all")){
-            System.out.println(service.printOTTDetailsOttName(ottName));
-        }else {
-            System.out.println(type+ ": " + service.ottMap.get(ottName).getTypePrice(type));
+        if(service.ottMap.get(ottName) == null) {
+            System.out.println("정보가 없습니다");
+            scanner.close();
+        } else {
+            System.out.println("type을 고르세요 basic,standard,premium 전체보기를 원하면 all");
+
+            String type = scanner.next();
+            if (type.equals("all")) {
+                System.out.println(service.printOTTDetailsOttName(ottName));
+            } else {
+                System.out.println(type + ": " + service.ottMap.get(ottName).getTypePrice(type));
+            }
         }
     }
 
