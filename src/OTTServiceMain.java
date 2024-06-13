@@ -37,9 +37,9 @@ public class OTTServiceMain {
             OTTPrices prices = ottMap.get(ottName.toLowerCase());
             if(prices != null) {
                 System.out.println("OTT: " + ottName);
-                System.out.println("Basic Price: " + prices.getBasicPrice());
-                System.out.println("Standard Price: " + prices.getStandardPrice());
-                System.out.println("Premium Price: " + prices.getPremiumPrice());
+                System.out.println("Basic Price(1명): " + prices.getBasicPrice());
+                System.out.println("Standard Price(2명): " + prices.getStandardPrice());
+                System.out.println("Premium Price(4명): " + prices.getPremiumPrice());
                 System.out.println();
             }else {
                 System.out.println("정보가 없습니다");
@@ -120,9 +120,7 @@ public class OTTServiceMain {
 
 //        service.updatePrice("Netflix", "standard", 15.99);
 //        service.updatePrice("Disney+", "basic", 7.99);
-
 //        System.out.println("Updated Prices:");
-//        service.printOTTDetails();
 
 
         Scanner scanner = new Scanner(System.in);
